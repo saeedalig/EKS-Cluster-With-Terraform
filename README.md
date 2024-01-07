@@ -58,6 +58,24 @@ Verify
     ```
     kubectl get all
     ```
+- Update image version
+    ```
+    kubectl set image deployment/nginx nginx=nginx:1.21.0
+    ```
+
+- Monitor the Roll backs
+    ```
+    kubectl rollout status deployment/nginx
+    ```
+
+- Roll back to previous version
+    ```
+    kubectl rollout undo deployment/nginx
+    ```
+- Verify the image version
+    ```
+    kubectl describe pod <pod_name>
+    ```      
 
 
 
