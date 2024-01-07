@@ -50,11 +50,11 @@ Verify
 
 # Task-2: Deploy a Stateless Service (e.g., Nginx) in a Scalable Manner
 
-Navigate to respective folder and apply to create resources in EKS Cluster by running below command:
+- Navigate to respective folder and apply to create resources in EKS Cluster by running below command:
     ```
     kubectl apply -f <file_names>
     ```
-Verify them. I haven't created separate namespace for the app. If you do, make sure to pass namespace in below command
+- Verify them. I haven't created separate namespace for the app. If you do, make sure to pass namespace in below command
     ```
     kubectl get all
     ```
