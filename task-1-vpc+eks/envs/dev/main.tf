@@ -39,7 +39,6 @@ module "bastion" {
   azs = data.aws_availability_zones.available.names[0]
 }
 
-
 # EKS Cluster
 module "eks_cluster" {
   source          = "../../modules/kubernetes/eks"
